@@ -1,0 +1,46 @@
+{
+  "manifest_version": 2,
+
+  "name": "Binance vn",
+  "version": "0.1.0",
+  "description": "AI for Binance",
+
+  "content_scripts": [{
+    "js": ["content.js"],
+    "matches": [
+      "https://www.binance.com/vn/my/wallet/account/main",
+      "https://www.binance.com/vn/my/dashboard",
+      "https://www.binance.com/vn/my/wallet/account/main/deposit/crypto/BTC",
+      "https://www.binance.com/vn/my/wallet/account/main/withdrawal/crypto/BTC",
+      "https://www.binance.com/vn/my/wallet/account/overview",
+      "https://www.binance.com/vn/my/wallet/account/main/deposit/crypto/ETH",
+      "https://www.binance.com/vn/my/wallet/account/main/withdrawal/crypto/ETH",
+      "https://www.binance.com/vn/my/wallet/account/main/deposit/crypto/USDT",
+      "https://www.binance.com/vn/my/wallet/account/main/withdrawal/crypto/USDT",
+      "https://www.binance.com/vn/my/wallet/account/main/deposit/crypto/BNB",
+      "https://www.binance.com/vn/my/wallet/account/main/withdrawal/crypto/BNB",
+      "https://www.binance.com/vn/trade/BTC_USDT",
+      "https://www.binance.com/vn/trade/ETH_USDT",
+      "https://www.binance.com/vn/trade/BNB_USDT",
+      "https://www.binance.com/vn",
+      "https://www.binance.com/vn/markets",
+      "https://www.binance.com/vn/my/settings/profile",
+      "https://www.binance.com/vn/usercenter/settings/api-management",
+      "https://www.binance.com/vn/my/settings/preference",
+      "https://www.binance.com/vn/activity/referral",
+      "https://www.binance.com/vn/my/task/list",
+      "https://www.binance.com/vn/my/coupon",
+      "https://www.binance.com/vn/my/security",
+      "https://www.binance.com/vn/my/payment/c2c",
+      "https://www.binance.com/vn/my/wallet/history/deposit",
+      "https://www.binance.com/vn/my/wallet/history/withdraw",
+      "https://www.binance.com/vn/usercenter/wallet/balances?tab=margin",
+      "https://www.binance.com/vn/usercenter/wallet/balances?tab=futures",
+      "https://www.binance.com/vn/my/wallet/account/c2c",
+      "https://www.binance.com/vn/my/wallet/account/saving",
+      "https://www.binance.com/vn/my/wallet/account/mining",
+      "https://www.binance.com/vn/my/wallet/account/partner/jex/transfer",
+      "https://www.binance.com/vn/my/wallet/account/partner/transfer"
+    ]
+  }]
+}
